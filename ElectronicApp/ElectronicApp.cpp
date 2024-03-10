@@ -1,6 +1,8 @@
-#include <iostream>
-
+#include <SFML/graphics.hpp>
+#include "Window.h"
 int main()
 {
-    std::cout << "Hello World!\n";
+    Window w;
+    w.run();
+    return 0;
 }
